@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { CarosualComponent } from './carosual/carosual.component';
 import { ContactComponent } from './contact/contact.component';
 import { CoursesComponent } from './courses/courses.component';
 import { FooterComponent } from './footer/footer.component';
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path :'about', component : AboutComponent},
   {path : 'courses', component : CoursesComponent},
   {path: 'trainer', component : TrainerComponent},
-  {path: 'contact', component: ContactComponent}
+  {path: 'contact', component: ContactComponent},
+  {path:'carosual', component : CarosualComponent}
 ];
 
 @NgModule({
